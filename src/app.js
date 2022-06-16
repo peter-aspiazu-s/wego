@@ -12,8 +12,11 @@ export const App = () => {
         <>
             <Header />
             <Servicios />
+            <hr />
             <Nosotros />
+            <hr />
             <Ubicacion />
+            <hr />
             <PresentacionImagen />
             <Contactos />
             <Footer />

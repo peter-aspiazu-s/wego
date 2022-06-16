@@ -16,14 +16,25 @@
     text-align: center;
 }
 
-.banner-header_contenedor h1{
-    color: white;
-}
-
-.banner-header__span {
+.banner-header__span span {
     font-size: 30px;
     margin: 0 10px;
     color: white;
-    padding: 10px;
 
+}
+
+@media screen and (min-width: 500px){
+    .banner-header__span span {
+        font-size: 35px;
+      }    
+}
+
+@media screen and (min-width: 900px){
+    .banner-header{
+            /* padding-top: 56px; */
+        height: 600px;
+        /* background-image: url('../image/banner-header.webp');
+        background-position: center;
+        background-size: cover; */
+    }
 }

@@ -13,3 +13,48 @@
 .servicios-article{
     margin-top: 20px;
 }
+
+.card-servicios{
+    width: 95vw;
+}
+
+@media screen and (min-width: 500px){
+    .btn-servicios{
+        padding: 10px 30px;
+    }
+}
+
+@media screen and (min-width: 600px){
+    .servicios h2{
+        font-size: 35px;
+    }
+}
+
+@media screen and (min-width: 700px){
+    .servicios-card-title{
+        font-size: 23px;
+    }
+    .servicios-card-text {
+        font-size: 18px;
+    }
+    .btn-servicios {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 900px){
+    .servicios div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .servicios-article:first-child{
+        margin-right: 20px;
+    }
+
+    .card-servicios{
+        width: 45vw;
+    }
+
+}

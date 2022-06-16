@@ -13,7 +13,7 @@ export const Nosotros = () => {
                 <div className="contenedor-contenido-avatar1">
                     <h3>Nombre y Apellido</h3>
                     <p>Texto Opcional</p>
-                    <Button>Llama Ya!</Button>
+                    <Button className="btn-nosotros">Llama Ya!</Button>
                 </div>
             </div>
             
@@ -24,7 +24,7 @@ export const Nosotros = () => {
                 <div className="contenedor-contenido-avatar2">
                     <h3>Nombre y Apellido</h3>
                     <p>Texto Opcional</p>
-                    <Button>Llama Ya!</Button>
+                    <Button className="btn-nosotros">Llama Ya!</Button>
                 </div>
             </div>
         </div>

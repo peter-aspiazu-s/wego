@@ -13,6 +13,8 @@
 
 .ubicacion-contenedor{
     position: relative;
+    display: flex;
+    justify-content: center;
 }
 
 .ubicacion-img {
@@ -27,6 +29,29 @@
 }
 
 .google-map {
-    width: 280px;
+    width: 95vw;
     height: 280px;
+}
+
+@media screen and (min-width: 600px){
+    .ubicacion-h2{
+        font-size: 35px;
+        margin-bottom: 150px;
+    }
+
+    .ubicacion-img {
+        position: absolute;
+        top: -129px;
+        width: 320px;
+    }
+
+    .google-map {
+        height: 350px;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .google-map {
+        height: 400px;
+    }
 }

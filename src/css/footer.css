@@ -4,6 +4,10 @@
     padding-bottom: 20px;
 }
 
+.footer-contenedor ul {
+    text-align: left;
+}
+
 .footer-contenedor ul h3{
     color: white; 
 }
@@ -27,4 +31,20 @@
 
 .footer-contenedor div a {
     color: cornflowerblue;
+}
+
+.ul-float{
+    display: none;
+}
+
+@media screen and (min-width: 500px){
+
+    .footer-contenedor-div{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .ul-float{
+        display: inline-block;
+    }
 }

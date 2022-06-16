@@ -35,3 +35,36 @@
     margin: 10px 0;
 }
 
+
+@media screen and (min-width: 500px){
+    .btn-nosotros{
+        padding: 10px 30px;
+    }
+
+    .contenedor h2{
+        font-size: 35px;
+    }
+}
+
+@media screen and (min-width: 700px){
+
+    .contenedor p{
+        font-size: 20px;
+    }
+
+    .btn-nosotros {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 800px){
+
+    .contenedor-avatar1, .contenedor-avatar2{
+        flex-flow: row;
+    }
+
+    .contenedor-img-avatar1, .contenedor-img-avatar2 {
+        margin-right: 20px;
+    }
+    
+}

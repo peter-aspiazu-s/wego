@@ -5,7 +5,7 @@ import "../css/galeria.css";
 export const PresentacionImagen = () => {
     return(
         <div className='carousel-conteneder container'>
-            <h2>Galería de Imagenes</h2>
+            <h2>Presentación de Imagenes</h2>
             <div className='carousel-contenedor-div'>
                 <Carousel fade>
                     <Carousel.Item>
@@ -172,19 +172,19 @@ export const PresentacionImagen = () => {
                 </Carousel>
             </div>
             <div className='carrusel-contenedor-typing'>
-            <h1>
-                    Destinos Turisticos  
+            {/* <h1> */}
+                    {/* Destinos Turisticos   */}
                     <span className='banner-header__span'>
                     {/* Style will be inherited from the parent element */}
                         <Typewriter
                             words={[
-                                    'La Islita', 
-                                    'Star Island', 
-                                    'Peanut Island', 
-                                    'Bear Cut',
-                                    'Nixon Beach',
-                                    'Haul Over',
-                                    'Monument Island',
+                                    'Destinos Turisticos La Islita', 
+                                    'Destinos Turisticos Star Island', 
+                                    'Destinos Turisticos Peanut Island', 
+                                    'Destinos Turisticos Bear Cut',
+                                    'Destinos Turisticos Nixon Beach',
+                                    'Destinos Turisticos Haul Over',
+                                    'Destinos Turisticos Monument Island',
                                     '¿Qué esperas? Ven y Disfruta!'
                                 ]}
                             loop
@@ -195,7 +195,7 @@ export const PresentacionImagen = () => {
                             delaySpeed={1000}
                         />
                     </span>
-                </h1>
+                {/* </h1> */}
             </div>
         </div>
     )

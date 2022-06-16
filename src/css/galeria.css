@@ -10,24 +10,37 @@
 }
 
 .img-carousel{
-    height: 300px;
-    width: 290px;
+    height: 400px;
+    width: 95vw;
     object-fit: cover;
 }
 
 .carrusel-contenedor-typing{
     position: absolute;
-    top: 170px;
+    top: 230px;
     z-index: 1001;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.1);
-}
-
-.carrusel-contenedor-typing h1{
-    text-shadow: 1px 1px 1px #333;
-    color: white;
+    width: 90%;
 }
 
 .banner-header__span{
+    text-shadow: 1px 1px 1px #333;
     font-size: 25px;
+}
+
+.carousel-indicators {
+    display: none;
+}
+
+@media screen and (min-width: 600px){
+    .carousel-conteneder h2{
+        font-size: 35px;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .img-carousel{
+        height: 500px;
+    }
 }

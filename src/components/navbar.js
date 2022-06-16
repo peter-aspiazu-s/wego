@@ -1,5 +1,5 @@
 import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
-
+import "../css/navbar.css";
 
 export const Menu = () => {
 
@@ -11,7 +11,7 @@ export const Menu = () => {
             style={{zIndex: 1100}}
         >
             <Container>
-                <Navbar.Brand href="#">WeGo</Navbar.Brand>
+                <Navbar.Brand className="titulo-web" href="#">WeGo</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
@@ -23,6 +23,7 @@ export const Menu = () => {
                     </NavDropdown>
                     <Nav.Link href="#">Contactos</Nav.Link>
                     <Nav.Link href="#">Ubicación</Nav.Link>
+                    <Nav.Link href="#">Destinos</Nav.Link>
                 </Nav>
                 </Navbar.Collapse>
             </Container>

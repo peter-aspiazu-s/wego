@@ -3,9 +3,9 @@ import "../css/contactos.css";
 
 export const Contactos = () => {
     return(
-        <div className="contactos-contenedor bg-secondary container">
+        <div className="contactos-contenedor bg-secondary ">
             <h2>Contactos</h2>
-            <div>
+            <div className="container">
                 <Accordion className="acordeon-redes" defaultActiveKey="0">
                     <Accordion.Item eventKey="0">
                         <Accordion.Header>Redes Sociales</Accordion.Header>
