@@ -1,0 +1,33 @@
+.carousel-conteneder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.img-carousel{
+    height: 300px;
+    width: 290px;
+    object-fit: cover;
+}
+
+.carrusel-contenedor-typing{
+    position: absolute;
+    top: 170px;
+    z-index: 1001;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.carrusel-contenedor-typing h1{
+    text-shadow: 1px 1px 1px #333;
+    color: white;
+}
+
+.banner-header__span{
+    font-size: 25px;
+}

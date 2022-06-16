@@ -1,0 +1,32 @@
+.ubicacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ubicacion-h2 {
+    margin-top: 20px;
+    margin-bottom: 120px;
+}
+
+.ubicacion-contenedor{
+    position: relative;
+}
+
+.ubicacion-img {
+    position: absolute;
+    top: -126px;
+    width: 280px;
+}
+
+.google-map{
+    z-index: 1000;
+    position: relative;
+}
+
+.google-map {
+    width: 280px;
+    height: 280px;
+}

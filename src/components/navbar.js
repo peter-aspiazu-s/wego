@@ -8,7 +8,7 @@ export const Menu = () => {
             className="position-fixed w-100" 
             bg="light" 
             expand="lg" 
-            style={{zIndex: 1000}}
+            style={{zIndex: 1100}}
         >
             <Container>
                 <Navbar.Brand href="#">WeGo</Navbar.Brand>
