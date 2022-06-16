@@ -1,0 +1,15 @@
+.servicios{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicios h2{
+    text-align: center;
+}
+
+.servicios-article{
+    margin-top: 20px;
+}

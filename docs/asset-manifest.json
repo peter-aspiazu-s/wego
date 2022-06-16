@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.09df8ce5.css",
+    "main.js": "/static/js/main.a020b5c6.js",
+    "static/media/banner-header.webp": "/static/media/banner-header.82c0cb615f6a473275e2.webp",
+    "index.html": "/index.html",
+    "main.09df8ce5.css.map": "/static/css/main.09df8ce5.css.map",
+    "main.a020b5c6.js.map": "/static/js/main.a020b5c6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09df8ce5.css",
+    "static/js/main.a020b5c6.js"
+  ]
+}
