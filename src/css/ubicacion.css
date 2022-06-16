@@ -50,6 +50,12 @@
     }
 }
 
+@media screen and (min-width: 800px){
+    .google-map {
+        width: 760px;
+    }
+}
+
 @media screen and (min-width: 1000px){
     .google-map {
         height: 400px;

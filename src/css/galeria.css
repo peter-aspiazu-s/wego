@@ -9,6 +9,10 @@
     position: relative;
 }
 
+.carousel-conteneder h2 {
+    text-align: center;
+}
+
 .img-carousel{
     height: 400px;
     width: 95vw;
@@ -39,8 +43,22 @@
     }
 }
 
+@media screen and (min-width: 800px){
+    .img-carousel{
+        width: 760px;
+    }
+
+    .carrusel-contenedor-typing{
+        width: 700px;
+    }
+}
+
 @media screen and (min-width: 1000px){
     .img-carousel{
         height: 500px;
+    }
+
+    .carrusel-contenedor-typing{
+        top: 280px;
     }
 }

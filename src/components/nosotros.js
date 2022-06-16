@@ -11,15 +11,15 @@ export const Nosotros = () => {
                     <img className="img-avatar1" src="./assets/img/avatar1.webp" />
                 </div>
                 <div className="contenedor-contenido-avatar1">
-                    <h3>Nombre y Apellido</h3>
-                    <p>Texto Opcional</p>
+                    <h3>Christian Gonzalez</h3>
+                    <p>Auditor 1994-1999, Emprendedor, Empresario, Analista, Creador de Empresas en España y EEUU</p>
                     <Button className="btn-nosotros">Llama Ya!</Button>
                 </div>
             </div>
             
             <div className="contenedor-avatar2 mt-5">
                 <div className="contenedor-img-avatar2">
-                    <img className="img-avatar1" src="./assets/img/avatar2.webp" />
+                    <img className="img-avatar2" src="./assets/img/avatar2.webp" />
                 </div>
                 <div className="contenedor-contenido-avatar2">
                     <h3>Nombre y Apellido</h3>

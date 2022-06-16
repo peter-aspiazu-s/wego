@@ -9,6 +9,8 @@
 .contenedor-avatar1, .contenedor-avatar2{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .contenedor-img-avatar1, .contenedor-img-avatar2 {
@@ -20,11 +22,18 @@
     position: relative;
 }
 
-.img-avatar1, .img-avatar2 {
-    width: 430px;
+.img-avatar1 {
+    width: 500px;
     position: absolute;
-    top: 0px;
-    left: -80px;
+    top: -100px;
+    left: -110px;
+}
+
+.img-avatar2 {
+    width: 280px;
+    position: absolute;
+    top: -190px;
+    left: 0px;
 }
 
 .contenedor-contenido-avatar1, .contenedor-contenido-avatar2{
@@ -33,6 +42,11 @@
     justify-content: center;
     align-items: center;
     margin: 10px 0;
+    
+}
+
+.contenedor-contenido-avatar1 p, .contenedor-contenido-avatar2 p{
+    text-align: center;
 }
 
 
@@ -61,10 +75,19 @@
 
     .contenedor-avatar1, .contenedor-avatar2{
         flex-flow: row;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
     }
 
     .contenedor-img-avatar1, .contenedor-img-avatar2 {
-        margin-right: 20px;
+        /* align-self: flex-end; */
+        justify-self: center;
+        
     }
     
+    .contenedor-contenido-avatar1 , .contenedor-contenido-avatar1 {
+        align-self: center;
+        justify-self: center;
+    }
 }

@@ -7,7 +7,7 @@ import { PresentacionImagen } from "./components/galeria";
 import { Contactos } from "./components/contactos";
 import { Footer } from "./components/footer";
 
-export const App = () => {
+export const Home = () => {
     return(
         <>
             <Header />
