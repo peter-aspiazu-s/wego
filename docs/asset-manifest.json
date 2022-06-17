@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.b73724df.css",
-    "main.js": "/static/js/main.f77484fc.js",
+    "main.js": "/static/js/main.f90f3702.js",
     "static/media/banner-header.webp": "/static/media/banner-header.82c0cb615f6a473275e2.webp",
     "static/media/banner-fiestas.webp": "/static/media/banner-fiestas.a737b92a0e7c0cd38d7c.webp",
     "static/media/banner-paseos.webp": "/static/media/banner-paseos.4a495a1577e82785a477.webp",
     "static/media/banner-turismo.webp": "/static/media/banner-turismo.4a5ff7b7b18386160baf.webp",
     "index.html": "/index.html",
     "main.b73724df.css.map": "/static/css/main.b73724df.css.map",
-    "main.f77484fc.js.map": "/static/js/main.f77484fc.js.map"
+    "main.f90f3702.js.map": "/static/js/main.f90f3702.js.map"
   },
   "entrypoints": [
     "static/css/main.b73724df.css",
-    "static/js/main.f77484fc.js"
+    "static/js/main.f90f3702.js"
   ]
 }

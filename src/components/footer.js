@@ -14,9 +14,9 @@ export const Footer = () => {
             <div className="footer-contenedor-div">
                 <ul>
                     <h3>Servicios:</h3>
-                    <Link to="paseos-en-bote" className="link-li">Paseos en Bote</Link>
-                    <Link to="turismo-en-bote" className="link-li">Guía Turística en Bote</Link>
-                    <Link to="fiestas-en-bote" className="link-li">Fiestas en Bote</Link>
+                    <Link to="wego/paseos-en-bote" className="link-li">Paseos en Bote</Link>
+                    <Link to="wego/turismo-en-bote" className="link-li">Guía Turística en Bote</Link>
+                    <Link to="wego/fiestas-en-bote" className="link-li">Fiestas en Bote</Link>
                 </ul>
                 <ul className="ul-float">
                     <h3>Menu:</h3>
