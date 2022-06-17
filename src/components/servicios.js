@@ -1,4 +1,5 @@
 import { Card, Button } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 import '../css/servicios.css'
 
 export const Servicios = () => {
@@ -16,7 +17,9 @@ export const Servicios = () => {
                             <Card.Text className="servicios-card-text">
                             Ven y disfruta de los viajes en bote a cualquier hora, sea de día, tarde o noche, atendemos 24/7.
                             </Card.Text>
-                            <Button className='btn-servicios' variant="primary">Ver más</Button>
+                            <Link to="paseos-en-bote">
+                                <Button className='btn-servicios' variant="primary">Ver más</Button>
+                            </Link>
                         </Card.Body>
                     </Card>
                 </article>
@@ -29,12 +32,14 @@ export const Servicios = () => {
                         <Card.Text className="servicios-card-text">
                         Deseas conocer la historia de esta maravillosa costa? Los viajes guíados son para ti.
                         </Card.Text>
-                        <Button className='btn-servicios' variant="primary">Ver más</Button>
+                        <Link to="turismo-en-bote">
+                            <Button className='btn-servicios' variant="primary">Ver más</Button>
+                        </Link>
                     </Card.Body>
                     </Card>
                 </article>
 
-                <article className='servicios-article'>
+                <article className='servicios-article servicios-article-wave'>
                     <Card className='card-servicios'>
                     <Card.Img variant="top" src="./assets/img/fiesta-en-bote.webp" />
                     <Card.Body>
@@ -42,7 +47,9 @@ export const Servicios = () => {
                         <Card.Text className="servicios-card-text">
                         Quieres divertirte a lo grande? Ten una de las mejores fiesta de tu vida en nuestros botes, diviertete a lo máximo.
                         </Card.Text>
-                        <Button className='btn-servicios' variant="primary">Ver más</Button>
+                        <Link to="fiestas-en-bote">
+                            <Button className='btn-servicios' variant="primary">Ver más</Button>
+                        </Link>
                     </Card.Body>
                     </Card>
                 </article>

@@ -1,7 +1,14 @@
 import { Link } from "react-router-dom";
 import "../css/footer.css";
+import { scrollItemMenu } from "../helpers/navbarFunction";
 
 export const Footer = () => {
+
+    const handleClickItemMenu = (e) => {
+        e.preventDefault();
+        scrollItemMenu(e);
+    }
+
     return(
         <div className="footer-contenedor">
             <div className="footer-contenedor-div">
@@ -13,11 +20,11 @@ export const Footer = () => {
                 </ul>
                 <ul className="ul-float">
                     <h3>Menu:</h3>
-                    <a href="#"><li>Arriba</li></a>
-                    <a href="#"><li>Nosotros</li></a>
-                    <a href="#"><li>Contactos</li></a>
-                    <a href="#"><li>Ubicacion</li></a>
-                    <a href="#"><li>Destinos</li></a>
+                 <li><a href="#arriba" onClick={handleClickItemMenu}>Arriba</a></li>
+                   <li><a href="#nosotros" onClick={handleClickItemMenu}>Nosotros</a></li>
+                    <li><a href="#contactos" onClick={handleClickItemMenu}>Contactos</a></li>
+                    <li><a href="#ubicacion" onClick={handleClickItemMenu}>Ubicacion</a></li>
+                   <li><a href="#destinos" onClick={handleClickItemMenu}>Destinos</a></li>
                 </ul>
                 <div className="footer-direccion">
                     <h3>Dirección:</h3>

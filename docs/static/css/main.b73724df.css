@@ -1,0 +1,737 @@
+.banner-header {
+    background-image: url(../../assets/img/banner-header.webp);
+    background-position: 50%;
+    background-size: cover;
+    height: 400px;
+    padding-top: 56px
+}
+
+.banner-header_contenedor {
+    align-items: center;
+    background-color: rgba(0, 0, 0, .5);
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    width: 100%
+}
+
+.banner-header__span span {
+    color: #fff;
+    font-size: 30px;
+    margin: 0 10px
+}
+
+@media screen and (min-width:500px) {
+    .banner-header__span span {
+        font-size: 35px
+    }
+}
+
+@media screen and (min-width:900px) {
+    .banner-header {
+        height: 600px
+    }
+}
+
+.servicios {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 0
+}
+
+.servicios h2 {
+    text-align: center
+}
+
+.servicios-article {
+    margin-top: 20px
+}
+
+.servicios-article-wave {
+    position: relative;
+    z-index: 999
+}
+
+.card-servicios {
+    width: 95vw
+}
+
+@media screen and (min-width:500px) {
+    .btn-servicios {
+        padding: 10px 30px
+    }
+}
+
+@media screen and (min-width:600px) {
+    .servicios h2 {
+        font-size: 35px
+    }
+}
+
+@media screen and (min-width:700px) {
+    .servicios-card-title {
+        font-size: 23px
+    }
+
+    .servicios-card-text {
+        font-size: 18px
+    }
+
+    .btn-servicios {
+        font-size: 20px
+    }
+}
+
+@media screen and (min-width:900px) {
+    .servicios div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center
+    }
+
+    .servicios-article:first-child {
+        margin-right: 20px
+    }
+
+    .card-servicios {
+        width: 45vw
+    }
+}
+
+.nosotros-contenedor {
+    background-color: #009ae6;
+    margin: 30px 0;
+    padding: 30px 0;
+    position: relative
+}
+
+.wave1 {
+    height: 100px;
+    overflow: hidden;
+    position: absolute;
+    top: -60px;
+    width: 100vw;
+    z-index: 998
+}
+
+.wave-svg1 {
+    height: 100%;
+    width: 100%
+}
+
+.wave-path1 {
+    stroke: none;
+    fill: #009ae6
+}
+
+.wave2 {
+    bottom: -60px;
+    height: 100px;
+    overflow: hidden;
+    position: absolute;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    width: 100vw;
+    z-index: 998
+}
+
+.wave-svg2 {
+    height: 100%;
+    width: 100%
+}
+
+.wave-path2 {
+    stroke: none;
+    fill: #009ae6
+}
+
+.contenedor {
+    color: #fff;
+    position: relative;
+    width: 100%;
+    z-index: 999
+}
+
+.contenedor,
+.contenedor-avatar1,
+.contenedor-avatar2 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.contenedor-img-avatar1,
+.contenedor-img-avatar2 {
+    border-radius: 100%;
+    box-shadow: 1px 1px 1px 1px #333;
+    height: 280px;
+    overflow: hidden;
+    position: relative;
+    width: 280px
+}
+
+.img-avatar1 {
+    left: -110px;
+    position: absolute;
+    top: -100px;
+    width: 500px
+}
+
+.img-avatar2 {
+    left: 0;
+    position: absolute;
+    top: -190px;
+    width: 280px
+}
+
+.contenedor-contenido-avatar1,
+.contenedor-contenido-avatar2 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px 0
+}
+
+.contenedor-contenido-avatar1 p,
+.contenedor-contenido-avatar2 p {
+    text-align: center
+}
+
+@media screen and (min-width:500px) {
+    .btn-nosotros {
+        padding: 10px 30px
+    }
+
+    .contenedor h2 {
+        font-size: 35px
+    }
+}
+
+@media screen and (min-width:700px) {
+
+    .btn-nosotros,
+    .contenedor p {
+        font-size: 20px
+    }
+}
+
+@media screen and (min-width:800px) {
+
+    .contenedor-avatar1,
+    .contenedor-avatar2 {
+        display: grid;
+        flex-flow: row;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%
+    }
+
+    .contenedor-img-avatar1,
+    .contenedor-img-avatar2 {
+        justify-self: center
+    }
+
+    .contenedor-contenido-avatar1 {
+        align-self: center;
+        justify-self: center
+    }
+}
+
+.ubicacion {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    z-index: 999
+}
+
+.ubicacion-h2 {
+    margin-bottom: 120px;
+    margin-top: 20px
+}
+
+.ubicacion-contenedor {
+    display: flex;
+    justify-content: center;
+    position: relative
+}
+
+.ubicacion-img {
+    position: absolute;
+    top: -126px;
+    width: 280px
+}
+
+.google-map {
+    height: 280px;
+    position: relative;
+    width: 95vw;
+    z-index: 1000
+}
+
+@media screen and (min-width:600px) {
+    .ubicacion-h2 {
+        font-size: 35px;
+        margin-bottom: 150px
+    }
+
+    .ubicacion-img {
+        position: absolute;
+        top: -129px;
+        width: 320px
+    }
+
+    .google-map {
+        height: 350px
+    }
+}
+
+@media screen and (min-width:800px) {
+    .google-map {
+        width: 760px
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .google-map {
+        height: 400px
+    }
+}
+
+.carousel-conteneder {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    position: relative
+}
+
+.carousel-conteneder h2 {
+    text-align: center
+}
+
+.img-carousel {
+    height: 400px;
+    object-fit: cover;
+    width: 95vw
+}
+
+.carrusel-contenedor-typing {
+    background-color: rgba(0, 0, 0, .1);
+    position: absolute;
+    text-align: center;
+    top: 230px;
+    width: 90%;
+    z-index: 1001
+}
+
+.banner-header__span {
+    font-size: 25px;
+    text-shadow: 1px 1px 1px #333
+}
+
+.carousel-indicators {
+    display: none
+}
+
+@media screen and (min-width:600px) {
+    .carousel-conteneder h2 {
+        font-size: 35px
+    }
+}
+
+@media screen and (min-width:800px) {
+    .img-carousel {
+        width: 760px
+    }
+
+    .carrusel-contenedor-typing {
+        width: 700px
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .img-carousel {
+        height: 500px
+    }
+
+    .carrusel-contenedor-typing {
+        top: 280px
+    }
+}
+
+.contactos-contenedor {
+    background-color: #009ae6;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    position: relative
+}
+
+.wave3 {
+    height: 100px;
+    overflow: hidden;
+    position: absolute;
+    top: -60px;
+    width: 100vw;
+    z-index: 998
+}
+
+.wave-svg3 {
+    height: 100%;
+    width: 100%
+}
+
+.wave-path3 {
+    stroke: none;
+    fill: #009ae6
+}
+
+.contactos-contenedor h2 {
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center
+}
+
+.contactos-contenedor .container,
+.contactos-contenedor h2 {
+    position: relative;
+    z-index: 999
+}
+
+.accordion-item {
+    border: 1px solid rgba(0, 0, 0, .125)
+}
+
+.accordion-button {
+    color: #009ae6
+}
+
+.accordion-button:not(.collapsed) {
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125);
+    color: #009ae6
+}
+
+.acordeon-redes-container div {
+    margin-bottom: 20px
+}
+
+.acordeon-redes-container div a {
+    align-items: center;
+    color: #009ae6;
+    display: flex;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none
+}
+
+.acordeon-redes-container div a i {
+    color: #009ae6;
+    font-size: 30px;
+    margin-right: 10px
+}
+
+@media screen and (min-width:600px) {
+    .contactos-contenedor h2 {
+        font-size: 35px
+    }
+}
+
+@media screen and (min-width:700px) {
+    .accordion-button {
+        font-size: 25px
+    }
+}
+
+.paseo-content-contenedor {
+    padding: 20px 10px
+}
+
+.paseo-contenedor div,
+.paseo-content-contenedor {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.paseo-contenedor div p {
+    margin-top: 20px;
+    text-align: center
+}
+
+.video-yt {
+    box-shadow: 1px 1px 1px 1px #333;
+    height: 200px;
+    width: 95vw
+}
+
+@media screen and (min-width:400px) {
+    .video-yt {
+        height: 250px
+    }
+}
+
+@media screen and (min-width:500px) {
+    .video-yt {
+        height: 300px
+    }
+
+    .paseo-content-contenedor h2 {
+        font-size: 35px
+    }
+
+    .paseo-contenedor div a {
+        font-size: 20px
+    }
+}
+
+@media screen and (min-width:600px) {
+    .video-yt {
+        height: 350px
+    }
+}
+
+@media screen and (min-width:700px) {
+    .paseo-contenedor div p {
+        font-size: 20px
+    }
+
+    .paseo-contenedor div a {
+        padding: 10px 20px
+    }
+
+    .video-yt {
+        height: 400px
+    }
+}
+
+@media screen and (min-width:800px) {
+    .video-yt {
+        width: 760px
+    }
+}
+
+.banner-fiestas {
+    background-image: url(../../assets/img/fiesta-en-bote.webp);
+    background-position: 50%;
+    background-size: cover;
+    height: 400px;
+    padding-top: 56px
+}
+
+.banner-fiestas_contenedor {
+    align-items: center;
+    background-color: rgba(0, 0, 0, .5);
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    width: 100%
+}
+
+.banner-fiestas__span span {
+    color: #fff;
+    font-size: 30px;
+    margin: 0 10px
+}
+
+@media screen and (min-width:500px) {
+    .banner-fiestas__span span {
+        font-size: 35px
+    }
+}
+
+@media screen and (min-width:900px) {
+    .banner-fiestas {
+        height: 600px
+    }
+}
+
+.banner-paseos {
+    background-image: url(../../assets/img/paseo-en-bote.webp);
+    background-position: 50%;
+    background-size: cover;
+    height: 400px;
+    padding-top: 56px
+}
+
+.banner-paseos_contenedor {
+    align-items: center;
+    background-color: rgba(0, 0, 0, .5);
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    width: 100%
+}
+
+.banner-paseos__span span {
+    color: #fff;
+    font-size: 30px;
+    margin: 0 10px
+}
+
+@media screen and (min-width:500px) {
+    .banner-paseos__span span {
+        font-size: 35px
+    }
+}
+
+@media screen and (min-width:900px) {
+    .banner-paseos {
+        height: 600px
+    }
+}
+
+.banner-turismo {
+    background-image: url(../../assets/img/turismo-en-bote.webp);
+    background-position: 50%;
+    background-size: cover;
+    height: 400px;
+    padding-top: 56px
+}
+
+.banner-turismo_contenedor {
+    align-items: center;
+    background-color: rgba(0, 0, 0, .5);
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    width: 100%
+}
+
+.banner-turismo__span span {
+    color: #fff;
+    font-size: 30px;
+    margin: 0 10px
+}
+
+@media screen and (min-width:500px) {
+    .banner-turismo__span span {
+        font-size: 35px
+    }
+}
+
+@media screen and (min-width:900px) {
+    .banner-turismo {
+        height: 600px
+    }
+}
+
+.titulo-web {
+    font-size: 25px
+}
+
+.dropdown-item,
+.me-auto {
+    font-size: 20px
+}
+
+.navbar-brand {
+    margin-right: 0 !important
+}
+
+.dropdown-item:first-child {
+    margin-bottom: 10px
+}
+
+.footer-contenedor {
+    background-color: #343a40;
+    padding: 20px 10px
+}
+
+.footer-contenedor ul {
+    text-align: left
+}
+
+.footer-contenedor ul h3 {
+    color: #fff
+}
+
+.footer-contenedor ul li {
+    list-style: none;
+    margin-bottom: 10px
+}
+
+.link-li {
+    display: block;
+    margin-bottom: 10px
+}
+
+.footer-contenedor hr {
+    color: #fff
+}
+
+.footer-contenedor div {
+    color: #fff;
+    text-align: center
+}
+
+.footer-contenedor div a {
+    color: #6495ed
+}
+
+.footer-contenedor-div {
+    display: flex;
+    justify-content: center
+}
+
+.footer-direccion,
+.ul-float {
+    display: none
+}
+
+@media screen and (min-width:500px) {
+    .footer-contenedor-div {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr)
+    }
+
+    .ul-float {
+        display: inline-block;
+        justify-self: center
+    }
+}
+
+@media screen and (min-width:600px) {
+    .footer-contenedor-div {
+        grid-template-columns: repeat(3, 1fr)
+    }
+
+    .footer-direccion {
+        display: block
+    }
+
+    .footer-direccion img {
+        display: none
+    }
+}
+
+@media screen and (min-width:800px) {
+    .footer-direccion img {
+        border: 1px solid #fff;
+        display: block;
+        margin: 0 auto;
+        width: 150px
+    }
+}
+
+@media screen and (min-width:1000px) {
+
+    .footer-direccion,
+    .ul-float {
+        justify-self: flex-start
+    }
+}
+
+/*# sourceMappingURL=main.b73724df.css.map*/

@@ -1,30 +1,23 @@
 import { Typewriter } from 'react-simple-typewriter';
-import '../css/bannerHeader.css';
+import '../css/bannerFiestas.css';
 
-export const BannerHeader = () => {
+export const BannerFiestas = () => {
 
 
     return (
-        <div id="arriba" className="banner-header">
-            <div className='banner-header_contenedor'>
+        <div id="arriba" className="banner-fiestas">
+            <div className='banner-fiestas_contenedor'>
                 {/* <h1> */}
                     {/* Ven y Disfruta de */}
-                    <span className='banner-header__span'>
+                    <span className='banner-fiestas__span'>
                     {/* Style will be inherited from the parent element */}
                         <Typewriter
                             className="span-typing"
-                            words={[
-                                    'Ven y Disfruta de Viajes 24/7', 
+                            words={[ 
                                     'Ven y Disfruta de Fiestas en bote', 
-                                    'Ven y Disfruta de Turismo en bote', 
+                                    'Ven con Tus Amigos y Pásala bien', 
                                     'Diversión asegurada!',
-                                    'Destinos Turisticos La Islita', 
-                                    'Destinos Turisticos Star Island', 
-                                    'Destinos Turisticos Peanut Island', 
-                                    'Destinos Turisticos Bear Cut',
-                                    'Destinos Turisticos Nixon Beach',
-                                    'Destinos Turisticos Haul Over',
-                                    'Destinos Turisticos Monument Island',
+                                    'De Día, Tarde, Noche o incluso en la Madrugada',
                                     '¿Qué esperas? Ven y Disfruta!'
                                 ]}
                             loop

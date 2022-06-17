@@ -13,6 +13,11 @@
     text-align: center;
 }
 
+/* .carousel-contenedor-div{
+    position: relative;
+    z-index: 999;
+} */
+
 .img-carousel{
     height: 400px;
     width: 95vw;

@@ -2,7 +2,7 @@ import "../css/ubicacion.css";
 
 export const Ubicacion = () => {
     return (
-        <div className="ubicacion">
+        <div id="ubicacion" className="ubicacion">
             <h2 className="ubicacion-h2">Ubicación</h2>
             <div className="ubicacion-contenedor">
                 <img className="ubicacion-img" src="./assets/img/hombre-señal.webp" />

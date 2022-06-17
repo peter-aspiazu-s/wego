@@ -1,36 +1,66 @@
 .contactos-contenedor{
     padding-top: 20px;
     padding-bottom: 20px;
+    background-color: #009ae6;
+    position: relative;
+    margin-top: 30px;
+}
+
+.wave3{
+    z-index: 998;
+    width: 100vw;
+    height: 100px; 
+    overflow: hidden;
+    position: absolute;
+    top: -60px;
+}
+
+.wave-svg3{
+    height: 100%; 
+    width: 100%;
+}
+
+.wave-path3{
+    stroke: none; 
+    fill: #009ae6;
 }
 
 .contactos-contenedor h2{
     color: white;
     text-align: center;
     margin-bottom: 20px;
+    position: relative;
+    z-index: 999;
+}
+
+.contactos-contenedor .container{
+    position: relative;
+    z-index: 999;
 }
 
 .accordion-item {
-    background-color: #343a40;
     border: 1px solid rgba(0, 0, 0, 0.125);
 }
 
 .accordion-button {
-    color: white;
-    background-color: #343a40;
+    color: #009ae6;
 }
 
 .accordion-button:not(.collapsed) {
-    color: white;
-    background-color: #343a40;
+    color: #009ae6;
     box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
 }
+
+
 
 .acordeon-redes-container div{
     margin-bottom: 20px;
 }
 
 .acordeon-redes-container div a{
-    color: white;
+    color: #009ae6;
+    font-weight: 600;
+    letter-spacing: 1px;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -38,7 +68,7 @@
 
 .acordeon-redes-container div a i{
     font-size: 30px;
-    color: white;
+    color: #009ae6;
     margin-right: 10px;
 }
 

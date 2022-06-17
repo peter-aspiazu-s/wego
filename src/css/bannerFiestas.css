@@ -1,0 +1,40 @@
+.banner-fiestas{
+    padding-top: 56px;
+    height: 400px;
+    background-image: url('../image/banner-fiestas.webp');
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-fiestas_contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.banner-fiestas__span span {
+    font-size: 30px;
+    margin: 0 10px;
+    color: white;
+
+}
+
+@media screen and (min-width: 500px){
+    .banner-fiestas__span span {
+        font-size: 35px;
+      }    
+}
+
+@media screen and (min-width: 900px){
+    .banner-fiestas{
+            /* padding-top: 56px; */
+        height: 600px;
+        /* background-image: url('../image/banner-paseos.webp');
+        background-position: center;
+        background-size: cover; */
+    }
+}

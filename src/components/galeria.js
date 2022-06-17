@@ -4,7 +4,7 @@ import "../css/galeria.css";
 
 export const PresentacionImagen = () => {
     return(
-        <div className='carousel-conteneder container'>
+        <div id="destinos" className='carousel-conteneder container'>
             <h2>Presentación de Imagenes</h2>
             <div className='carousel-contenedor-div'>
                 <Carousel fade>

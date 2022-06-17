@@ -3,7 +3,14 @@ import "../css/contactos.css";
 
 export const Contactos = () => {
     return(
-        <div className="contactos-contenedor bg-secondary ">
+        <div id="contactos" className="contactos-contenedor">
+
+            <div className="wave3" >
+                <svg className="wave-svg3" viewBox="0 0 500 150" preserveAspectRatio="none">
+                    <path className="wave-path3" d="M0.00,49.98 C150.00,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"></path>
+                </svg>
+            </div>
+
             <h2>Contactos</h2>
             <div className="container">
                 <Accordion className="acordeon-redes" defaultActiveKey="0">
