@@ -18,7 +18,7 @@ export const Menu = () => {
             style={{zIndex: 1100}}
         >
             <Container>
-                <Link className="navbar-brand" to="/wego">
+                <Link className="navbar-brand" to="/wego/">
                     <Navbar.Brand className="titulo-web" href="#">WeGo</Navbar.Brand>
                 </Link>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />

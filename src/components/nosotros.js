@@ -3,7 +3,7 @@ import "../css/nosotros.css";
 
 export const Nosotros = () => {
     return (
-        <div className="nosotros-contenedor">
+        <div id="nosotros" className="nosotros-contenedor">
 
             <div className="wave1" >
                 <svg className="wave-svg1" viewBox="0 0 500 150" preserveAspectRatio="none">
@@ -11,7 +11,7 @@ export const Nosotros = () => {
                 </svg>
             </div>
 
-            <div id="nosotros" className="contenedor container">
+            <div className="contenedor container">
                 <h2 className="my-3">Nosotros</h2>
                 <p>Empezamos este negocio hace unos años, texto texto texto texto texto texto texto texto texto</p>
                 <div className="contenedor-avatar1">
