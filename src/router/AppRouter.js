@@ -17,6 +17,10 @@ export const AppRouter = () => {
                 <Route path="wego/paseos-en-bote" element={<PaseosBote />} />
                 <Route path="wego/fiestas-en-bote" element={<FiestasBote />} />
                 <Route path="wego/turismo-en-bote" element={<TurismoBote />} />
+                {/* <Route path="/" element={<Home />} />
+                <Route path="paseos-en-bote" element={<PaseosBote />} />
+                <Route path="fiestas-en-bote" element={<FiestasBote />} />
+                <Route path="turismo-en-bote" element={<TurismoBote />} /> */}
             </Routes>
 
             <Footer />

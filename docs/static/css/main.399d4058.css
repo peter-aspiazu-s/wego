@@ -99,6 +99,14 @@
     .card-servicios {
         width: 45vw
     }
+
+    .btn-servicios:hover {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        transition: -webkit-transform .5s;
+        transition: transform .5s;
+        transition: transform .5s, -webkit-transform .5s
+    }
 }
 
 .nosotros-contenedor {
@@ -238,6 +246,16 @@
     .contenedor-contenido-avatar1 {
         align-self: center;
         justify-self: center
+    }
+}
+
+@media screen and (min-width:992px) {
+    .btn-nosotros:hover {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        transition: -webkit-transform .5s;
+        transition: transform .5s;
+        transition: transform .5s, -webkit-transform .5s
     }
 }
 
@@ -632,6 +650,10 @@
     font-size: 25px
 }
 
+.titulo-web img {
+    width: 75px
+}
+
 .dropdown-item,
 .me-auto {
     font-size: 20px
@@ -643,6 +665,26 @@
 
 .dropdown-item:first-child {
     margin-bottom: 10px
+}
+
+@media screen and (min-width:992px) {
+    .titulo-web img {
+        width: 80px
+    }
+
+    .titulo-web img:hover {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+        transition: -webkit-transform .5s;
+        transition: transform .5s;
+        transition: transform .5s, -webkit-transform .5s
+    }
+
+    .navbar-collapse {
+        align-items: center;
+        flex-basis: 100%;
+        flex-grow: 0
+    }
 }
 
 .footer-contenedor {
@@ -734,4 +776,4 @@
     }
 }
 
-/*# sourceMappingURL=main.b73724df.css.map*/
+/*# sourceMappingURL=main.399d4058.css.map*/

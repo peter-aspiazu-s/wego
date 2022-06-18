@@ -62,4 +62,10 @@
         width: 45vw;
     }
 
+    .btn-servicios:hover{
+        transform: scale(1.1);
+        transition: transform .5s;
+    }
+
+
 }

@@ -19,7 +19,9 @@ export const Menu = () => {
         >
             <Container>
                 <Link className="navbar-brand" to="/wego/">
-                    <Navbar.Brand className="titulo-web" href="#">WeGo</Navbar.Brand>
+                    <Navbar.Brand className="titulo-web" href="#">
+                        <img src="./assets/img/ico-logo.png" />
+                    </Navbar.Brand>
                 </Link>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">

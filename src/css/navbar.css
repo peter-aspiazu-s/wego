@@ -2,6 +2,10 @@
     font-size: 25px;
 }
 
+.titulo-web img{
+    width: 75px;
+}
+
 .me-auto{
     font-size: 20px;
 }
@@ -16,4 +20,22 @@
 
 .dropdown-item:nth-child(1) {
     margin-bottom: 10px;
+}
+
+@media screen and (min-width: 992px){
+    
+    .titulo-web img{
+        width: 80px;
+    }
+
+    .titulo-web img:hover{
+        transform: scale(1.2);
+        transition: transform .5s;
+    }
+
+    .navbar-collapse {
+        flex-basis: 100%;
+        flex-grow: unset;
+        align-items: center;
+      }
 }
